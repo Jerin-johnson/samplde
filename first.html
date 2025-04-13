@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+   
+    <div id="container">
+
+        <input type="text" id="input-box">
+
+
+        <div id="sub-div">
+            <div id="row1" class="row">
+                <button onclick="cal(7)">7</button>
+                <button onclick="cal(8)">8</button>
+                <button onclick="cal(9)">9</button>
+                <button onclick="cal('/')" style="font-size: large;">/</button>  
+            </div>
+    
+            <div id="row2" class="row">
+                <button onclick="cal(4)">4</button>
+                <button onclick="cal(5)">5</button>
+                <button onclick="cal(6)">6</button>
+                <button onclick="cal('*')">X</button>
+            </div>
+    
+            <div id="row3" class="row">
+                <button onclick="cal(3)">3</button>
+                <button onclick="cal(2)">2</button>
+                <button onclick="cal(1)">1</button>
+                <button onclick="cal('+')" style="font-size: large;">+</button>
+            </div>
+    
+            <div id="row4" class="row">
+                <button onclick="equal()" style="font-size: large;">=</button>
+                <button onclick="cal(0)">0</button>
+                <button onclick="cal('-')" style="font-size: large;">-</button>
+                <button onclick="clr()" style="font-size: large;">clr</button>
+            </div>
+        </div>
+
+
+
+    </div>
+
+
+
+
+    <script src="scrpit.js"></script>
+</body>
+</html>

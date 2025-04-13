@@ -1,0 +1,38 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+
+#container{
+    height: 460px;
+    width: 460px;
+    background-color: gray;
+    padding: 20px;
+    
+}
+#input-box{
+    height: 50px;
+    width: 400px;
+    margin-left: 30px;
+    margin-top: 15px;
+    pointer-events: none;
+}
+.row button{
+    height: 70px;
+    width: 70px;
+    margin: 15px;
+    margin-left: 25px;
+    border-radius: 50%;
+}
+
+.row button:hover{
+    background-color: rgb(45, 45, 6);
+    color: white;
+    border: 1px solid white;
+}
+#sub-div{
+  
+}

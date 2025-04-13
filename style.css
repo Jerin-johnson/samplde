@@ -1,0 +1,142 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    border: border-box;
+    scroll-behavior: smooth;
+}
+.nav-bar{
+    height: 60px;
+    background-color: #0f1111;
+    display: flex;
+    align-items: center;
+    color: aliceblue;
+    justify-content: space-evenly;
+}
+#nav-logo img{
+    height: 50px;
+    width: 100px;
+}
+.border{
+    border: 2px solid transparent;
+}
+.border:hover{
+    border: 2px solid white;
+}
+#option{
+    margin-left:8px;
+    margin-right: 0px;
+}
+#cart i{
+    font-size: 30px;
+}
+#side-panel{
+    display: flex;
+    height: 40px;
+    background-color: #222f3d;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#panel-opps p{
+    display: inline;
+    margin-left: 16px;
+    
+}
+#panel-opps{
+    width: 70%;
+}
+#panel-deals p{
+    font-weight: bolder;
+}
+#hero-section{
+    background-image: url(hero_image.jpg);
+    height: 350px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+#hero-test{
+    background-color: white;
+    color: #0f1111;
+    display: flex;
+    align-items: center;
+    height: 50px;
+    justify-content: center;
+    width: 90%;
+    margin-bottom: 20px;
+}
+#shopping{
+    display: flex;
+    justify-content: space-around;
+    background-color: #e2e7e2;
+    flex-wrap: wrap;
+}
+.box{
+    margin-top: 10px;
+    height: 325px;
+    width: 23%;
+    background-color: white;
+    /* text-align: center; */
+    
+}
+.images{
+    height: 250px;
+    margin: 15px;
+    background-size: contain;
+
+}
+.box h2{
+    margin-left: 15px;
+}
+#footer-panel{
+    height: 50px;
+    background-color: #37475a;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+#foot-panel1{
+    background-color: #222f3d;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.inner1-footer{
+    color: white;
+    margin-top: 25px;
+}
+.inner1-footer a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    margin-top: 10px;
+}
+#footer-panel a{
+    color: white;
+    text-decoration: none;
+}
+#foot-panel3{
+    height: 80px;
+    border-top: 0.1px solid white;
+    background-color: #222f3d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#foot-last{
+    height: 70px;
+    color: white;
+    background-color: #131a22;
+    text-align: center;
+    padding-top: 20px;
+    
+}
+
+#terms a{
+    text-decoration: none;
+    color: white;
+}
